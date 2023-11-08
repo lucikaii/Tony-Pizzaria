@@ -56,3 +56,22 @@ input::placeholder{
     width: 283px;
     background-color: #fff;
 }
+.areabotao{
+    height: 90px;
+    width: 300px;
+    gap: 13px;
+    display: grid;
+}
+.forgetpassword{
+    position: relative;
+    justify-self: end;
+    color: #fff;
+}
+.txt{
+    color: #F5F5F5;
+}
+.criarconta{
+    color: #F5F5F5;
+    font-size: 20px;
+    font-weight: bold;
+}
