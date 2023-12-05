@@ -33,7 +33,7 @@ const criarCategoria = function (categoria){
     categoriaBox.classList.add('categoria-box')
 
     const imagem = document.createElement('img')
-    imagem.src = '../img/categorias/${categoria.pic}'
+    imagem.src = `../img/categorias/${categoria.pic}`
     imagem.alt = categoria.nome
 
     categoriaBox.appendChild(imagem)

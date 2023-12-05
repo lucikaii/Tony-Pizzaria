@@ -11,7 +11,7 @@ main{
    
 }
 .white-square{
-    height: 400px;
+    height: auto;
     width: 100%;
     background-color: aqua;
     border-top-left-radius: 32px;
