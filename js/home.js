@@ -25,6 +25,7 @@ const categoria = [
         nome: 'sorvete',
         pic: 'sorvete.png'
     },
+    
 ]
 
 const criarCategoria = function (categoria){
