@@ -10,20 +10,20 @@ const categoria = [
         pic: 'bebida.png'
     },
     {
-        nome: 'frutas',
-        pic: 'Watermelon.png'
+        nome: 'pastel',
+        pic: 'pastel.png'
     },
     {
-        nome: 'pizzas meio a meio',
-        pic: 'duaspizzas.png'
+        nome: 'esfiha',
+        pic: 'esfiha.png'
     },
     {
-        nome: 'sundae',
+        nome: 'lanches',
+        pic: 'burger.png'
+    },
+    {
+        nome: 'sobremesas',
         pic: 'sundae.png'
-    },
-    {
-        nome: 'sorvete',
-        pic: 'sorvete.png'
     },
     
 ]

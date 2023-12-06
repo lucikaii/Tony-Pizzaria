@@ -1,8 +1,6 @@
 body{
     height: 100vh;
     width: 100vw;
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(249,173,103,1) 100%);
     font-family: 'Roboto', sans-serif;
 }
 header{
@@ -11,14 +9,15 @@ header{
     padding-left: 23px;
     padding-right: 21px;
     display: flex;
-    justify-content: space-between;
+    gap: 15px;
 }
 .title{
-    color: #fff;
+    color: #F27706;
 }
 .home{
     font-size: 22px;
     font-weight: bold;
+    color: #F27706;
 }
 .text{
     font-size: 14px;
@@ -36,7 +35,7 @@ main{
 }
 .input-area{
     width: 100%;
-    height: 50px;
+    height: 65px;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -44,10 +43,11 @@ main{
 input{
     height: 49px;
     width: 316px;
-    border-radius: 8px;
+    border-radius: 25px;
     border: none;
     outline: none;
     padding-left: 13px;
+    background-color: #EEEEEE;
    
 }
 .titulo-area{
@@ -59,28 +59,26 @@ input{
     
 }
 h1{
-    color: #fff;
+    color: #F27706;
     font-size: 15px;
     font-weight: bold;
 }
 .categorias-area{
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    padding: 10px;
 }
 .categoria-box{
     width: 48px;
     height: 48px;
     background-color: #F93030;
-    border-radius: 4px;
+    border-radius: 15px;
     display: grid;
     justify-content: center;
     align-items: center;
 }
-footer{
+nav{
     width: 100%;
     height: 59px;
     background-color: #F27706;
-    place-self: end;
-    
 }
