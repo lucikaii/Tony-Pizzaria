@@ -14,8 +14,9 @@ main{
     border-top-right-radius: 30px;
     padding: 18px;
 }
-.foto-nome{
-
+.meu-perfil{
+    display: flex;
+    gap: 20px;
 }
 img{
     width: 70px;
